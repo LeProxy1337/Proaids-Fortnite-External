@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{d252923f-583d-4433-b217-aa2e83934807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Includes">
+      <UniqueIdentifier>{272ff4b0-8141-48be-9ac1-08de569eb910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{d6919bdf-bcff-41b8-a6f5-1fa33b21ad66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CheatHelper">
+      <UniqueIdentifier>{7a6b61ac-7acc-435f-a621-0e2dbb6fbcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DriverCommunication">
+      <UniqueIdentifier>{512e5845-fc5e-459e-8c75-8cd57a632b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Overlay">
+      <UniqueIdentifier>{878aaca6-0ebf-434d-86de-9d2d1d07b984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapper">
+      <UniqueIdentifier>{def4e84a-a006-42d8-b0f2-4bdbae241d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\antidbg">
+      <UniqueIdentifier>{03e6dfdb-7858-41f9-8e13-0eefdb02bd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui\Game">
+      <UniqueIdentifier>{9209de97-36bf-439a-bf96-356eefeb93a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files\DriverCommunication</Filter>
+    </ClCompile>
+    <ClCompile Include="nt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rzctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_glfw.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_opengl3.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Source Files\CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Source Files\ImGui\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFuncs.h">
+      <Filter>Source Files\ImGui\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Source Files\ImGui\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files\CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMenu.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>Source Files\CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofed.h">
+      <Filter>Source Files\CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Source Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\Auth.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source Files\CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>Source Files\DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="drvkm.h">
+      <Filter>Source Files\DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="driverbytes.h">
+      <Filter>Source Files\DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\loadup.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\mapper_resource.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\stdafx.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\util.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\mapper.h">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="antidbg\antidbg.h">
+      <Filter>Source Files\antidbg</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rzctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Auth\libcurl.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="Auth\library_x64.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="mapper\physmeme-lib.lib">
+      <Filter>Source Files\Mapper</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="antidbg\AntiDBG.asm">
+      <Filter>Source Files\antidbg</Filter>
+    </None>
+  </ItemGroup>
+</Project>
