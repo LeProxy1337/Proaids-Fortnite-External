@@ -4,4 +4,4 @@ Proaids gloomy paste a bunch of furry skids were selling
 - **renderer:** GLFW
 
   
-![image](https://github.com/DevProxy1336/Proaids-Fortnite-External/assets/137983215/ab371b50-9ef2-41d8-ba14-dc0b864a3d05)
+![image](https://github.com/DevProxy1336/Proaids-Fortnite-External/assets/137983215/72107c59-c459-4eb0-98ea-74c8cd882872)
